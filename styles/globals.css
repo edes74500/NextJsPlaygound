@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&display=swap");
+@import "./cards.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +8,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --card-color: #85a0c9;
 }
 
 @media (prefers-color-scheme: dark) {
